@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(218, 173, 173);
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.question {
+    padding: 30px 0;
+    color: rgb(58, 57, 56);
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer {
+    border: 2px solid rgb(189, 173, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(40% - 4px);
+    height: 100px;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(129, 126, 126);
+    color: blanchedalmond;
+}
